@@ -1,0 +1,4 @@
+AppBundle\Entity\Task:
+    task_{1..25}:
+        name: '<sentence()>'
+        finished: '<numberBetween(0,1)>'
